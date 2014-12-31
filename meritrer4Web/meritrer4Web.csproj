@@ -82,8 +82,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\en\Microsoft.IdentityModel.resources.dll" />
+    <Content Include="bin\meritrer4Web.dll" />
+    <Content Include="bin\meritrer4Web.pdb" />
+    <Content Include="bin\Microsoft.IdentityModel.dll" />
+    <Content Include="bin\Microsoft.IdentityModel.Extensions.dll" />
+    <Content Include="bin\Microsoft.SharePoint.Client.dll" />
+    <Content Include="bin\Microsoft.SharePoint.Client.Runtime.dll" />
+    <Content Include="bin\Microsoft.VisualStudio.SharePoint.Remote.Diagnostics.dll" />
     <Content Include="Global.asax" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="bin\meritrer4Web.dll.config" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -98,6 +107,7 @@
     </Compile>
     <Compile Include="Pages\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
